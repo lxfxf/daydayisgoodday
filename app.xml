@@ -1,0 +1,10 @@
+
+<uwsgi>
+  <pythonpath>/home/lxf/dev/daydayisgoodday</pythonpath>   #flask项目目录位置，我的是在/root/flask-1
+  <module>manage</module>                   #flask项目的启动文件，我的是myapp.py，所以就是myapp，就是平时python  xxx.py启动flask的，就是啥
+  <callable>app</callable>                 #这里默认app
+  <socket>0.0.0.0:5000</socket>            #端口，自己喜欢
+  <master/>
+  <processes>4</processes>                 #启用的进程，我虚拟机测试用，起2、3个就够了。这个processes代表你同一时刻可以处理几个request，根据性能设置
+  <memory-report/>
+</uwsgi>
