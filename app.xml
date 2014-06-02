@@ -1,6 +1,7 @@
-
 <uwsgi>
-  <pythonpath>/home/lxf/env/daydayisgoodday</pythonpath>   
+  <pythonpath>/home/lxf/env/daydayisgoodday</pythonpath> 
+  <pythonpath>/home/lxf/env/lib/python2.7/site-packages</pythonpath>
+  <module>wsgi_configuration_module</module> 
   <module>manage</module>                   
   <callable>app</callable>                
   <socket>0.0.0.0:5000</socket>            
