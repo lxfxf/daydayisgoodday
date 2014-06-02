@@ -1,4 +1,3 @@
-
 <uwsgi>
   <pythonpath>/home/lxf/env/daydayisgoodday</pythonpath>   
   <module>manage</module>                   
